@@ -1,1 +1,22 @@
 //this is the heroes scss file
+$divcenter: 0 auto;
+$primary: #000;
+$basefontsize: 1em;
+
+li{
+    list-style-type:disc;
+    border:1px solid $primary;
+    padding:20px;
+}
+
+.heroName{
+    color:$primary;
+    font-size:$basefontsize;
+}
+
+.heroesListBlock{
+    display:block;
+    text-align:left;
+    margin:$divcenter;
+    width:max-content;
+}
