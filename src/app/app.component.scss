@@ -1,14 +1,38 @@
+/* This is the app component scss */
+
+
 $primary-color: #369;
-$main-font: Helvetica, Arial, sans-serif;
+$main-font: Helvetica,Arial,sans-serif;
+$grey: #ccc;
+$white:#fff;
+$Max: 100%;
+$zero:0px;
+$twitterPrimary: #1DA1F2;
+
+.appHeadline{
+  color:$white;
+}
 
 h1 {
-    color: $primary-color;
-    font-family: $main-font;
-    font-size: 250%;
-  }
-  p{
-    font-family:$main-font;
-  }
-  body{
-    font-family:$main-font;
-  }
+  color: $primary-color;
+  font-family: $main-font;
+  font-size: 250%;
+}
+
+p {
+  font-family: $main-font;
+}
+
+body {
+  background-color: $grey;
+  font-family: $main-font;
+  margin:0px;
+}
+
+.mainDiv {
+  text-align: center;
+  background-color: $twitterPrimary;
+  padding: 20px;
+  margin: $zero;
+  height: $Max;
+}
